@@ -14,7 +14,7 @@
         </table>
         <button type="submit">送信</button>
         <!-- 追加:課題 ここから -->
-        <p style="display: inline;"><a href="/country/list">一覧に戻る</a></p>
+        <a th:href="@{/country/list}" th:text="一覧に戻る"></a>
         <!-- 追加:課題 ここまで -->
     </form>
 </body>
